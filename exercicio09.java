@@ -22,5 +22,7 @@ public class Exercicios {
 				
 				
 				System.out.printf("%.2f C°", (F - ajuste) * n1/n2);
+		
+		num.close();
         }
         }

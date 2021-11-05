@@ -19,5 +19,7 @@ public class Exercicios {
 			double totalMes = valorHora * horasTrab;
 			
 		System.out.printf("Você recebeu R$ %.2f.", totalMes);
+		
+		num.close();
     }
     }

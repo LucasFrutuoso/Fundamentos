@@ -13,6 +13,8 @@ public class Exercicios {
 		double pesoMulher = (62.1 * h) - 44.7;
 		
 		System.out.printf("Peso ideal é: %.2f Kg para homens e %.2f Kg para mulheres.", pesoHomen, pesoMulher);
+		
+		num.close();
 
 		}
     }

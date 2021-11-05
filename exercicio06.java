@@ -18,7 +18,7 @@ public class Exercicios {
 			double A = Math.pow(R, 2) * PI;
 		System.out.printf("Area: %.2f m2.", A);
 
-  
+  	num.close();
   
   }
 }

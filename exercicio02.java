@@ -12,5 +12,7 @@ public class Exercicios {
 			  int n = numero.nextInt();
 			
 		System.out.println("O número informado foi :" + n);
+		
+		numero.close();
   }
 }

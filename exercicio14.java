@@ -16,5 +16,7 @@ public class Exercicios {
 		double multa = 4 * excesso;
 		
 		System.out.printf("João deverá pagar R$%.2f de multa. ", multa);
+		
+		num.close();
 }
 }

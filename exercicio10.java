@@ -18,5 +18,7 @@ public class Exercicios {
 		    double C = num.nextDouble();
 		
 		 System.out.printf("%.2f F°", (C * n2/n1) + ajuste);
+		
+		num.close();
   }
 }

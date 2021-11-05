@@ -23,6 +23,8 @@ Scanner num = new Scanner(System.in);
 		 double media = (n1 + n2 + n3 + n4) / 4;
 
 		System.out.printf("%.1f", media);
+		
+		num.close();
 
 }
 }

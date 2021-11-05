@@ -14,5 +14,7 @@ public class Exercicios {
 			int n2 = num.nextInt();
 			
 		System.out.printf("Soma: %d ", n1 + n2);
+		
+		num.close();
     }
     }

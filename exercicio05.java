@@ -15,5 +15,7 @@ public class Exercicios {
     
 		System.out.printf("%.0f cm.", conversao);
 		
+		num.close();
+		
 		}
     }

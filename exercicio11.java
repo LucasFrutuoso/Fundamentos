@@ -20,5 +20,7 @@ public class Exercicios {
 			System.out.println("A: "+(N1 * 2)+(N2 / 2));
 			System.out.println("B: "+(N1 * 3) + R);
 			System.out.println("C: "+ Math.pow(R, 3));
+		
+		num.close();
   }
 }

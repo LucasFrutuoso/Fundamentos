@@ -27,6 +27,8 @@ public class Exercicios {
 		System.out.printf("Salário Liquido: R$ %.2f\n", totalLiquido);
 		System.out.printf("Descontos: R$ %.2f\n", totalBruto - totalLiquido);
 		
+		num.close();
+		
 		
 	}
 

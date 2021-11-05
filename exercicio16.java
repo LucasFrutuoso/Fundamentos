@@ -10,11 +10,11 @@ public class Exercicios {
 
 		System.out.println("Quantos metros serão pintados?");
 		double M = sc.nextDouble();
-		double litrosLata = 18;
+		double MetrosLata = 18 * 3;
 		double precoLata = 80;
-		double latas =M /litrosLata;
+		double latas =M /MetrosLata;
 		
-		System.out.printf("Você precisará de %.1f Lata(s). Preço total:R$ %.2f", latas, (M / litrosLata) * precoLata);
+		System.out.printf("Você precisará de %.1f Lata(s). Preço total:R$ %.2f", latas, (M / MetrosLata) * precoLata);
 
 		sc.close();
 

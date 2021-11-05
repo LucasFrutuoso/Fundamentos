@@ -15,5 +15,7 @@ public class Exercicios {
     
 		System.out.printf("O dobro da área do quadrado é: %d", (b * h) * 2);
 		
+		num.close();
+		
   }
 }

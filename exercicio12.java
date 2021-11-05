@@ -14,5 +14,7 @@ public class Exercicios {
 		double pesoIdeal = (72.7 * A) - 58;
 		
 		System.out.printf("O peso ideal é: %.2f Kg.", pesoIdeal);
+		
+		num.close();
   }
 }
